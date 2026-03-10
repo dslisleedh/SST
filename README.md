@@ -4,6 +4,8 @@
 
 by Dongheon Lee, Seokju Yun, Jaegyun Im and Youngmin Ro
 
+[[arxiv]](https://arxiv.org/abs/2603.06738) [[prtrained models]](https://github.com/dslisleedh/SST/releases/tag/v0.0.1)
+
 ## Abstract
 
 >Recent Super-Resolution (SR) methods mainly adopt Transformers for their strong long-range modeling capability and exceptional representational capacity. 
