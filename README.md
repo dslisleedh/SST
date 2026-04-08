@@ -4,7 +4,7 @@
 
 by Dongheon Lee, Seokju Yun, Jaegyun Im and Youngmin Ro
 
-[[arxiv]](https://arxiv.org/abs/2603.06738) [[prtrained models]](https://github.com/dslisleedh/SST/releases/tag/v0.0.1)
+[[arxiv]](https://arxiv.org/abs/2603.06738) [[pretrained_models]](https://huggingface.co/collections/dslisleedh/sst) [[DFLIP dataset]](https://huggingface.co/datasets/dslisleedh/DFLIP)
 
 ## Abstract
 
