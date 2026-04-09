@@ -4,7 +4,7 @@
 
 by Dongheon Lee, Seokju Yun, Jaegyun Im and Youngmin Ro
 
-[[arxiv]](https://arxiv.org/abs/2603.06738) [[pretrained_models]](https://huggingface.co/collections/dslisleedh/sst) [[DFLIP dataset]](https://huggingface.co/datasets/dslisleedh/DFLIP)
+[[arxiv]](https://arxiv.org/abs/2603.06738) [[pretrained_models]](https://huggingface.co/collections/dslisleedh/sst) 
 
 ## Abstract
 
@@ -19,6 +19,13 @@ We enlarge the window size up to 96×96 while jointly scaling the training patch
 As a result, our network achieves 35.63 dB PSNR on Urban100×2, while reducing training and inference time by 2.1 and 2.9, respectively, compared to the RPB-based SR Transformer (PFT).
 
 ![image](figs/rib.png)
+
+## Update
+
+- 2026-04-09: Released SST-XL+ trained on DFLIP dataset.
+    ![SST-XL+ DFLIP benchmark](figs/sstxl.png)
+
+- 2026-04-08: Uploded the [[DFLIP dataset]](https://huggingface.co/datasets/dslisleedh/DFLIP) on huggingface.
 
 ## TODO
  - [ ] Supports Real-world SR Tasks
