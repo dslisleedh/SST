@@ -183,6 +183,8 @@ class ESCRIB(ImageArchitecture):
         super().__init__()
         if attn_type == 'Flex':
             attn_func = torch.compile(flex_attention, dynamic=True)
+        else:
+            attn_func = None
             
         self.plk_func = _geo_ensemble
             

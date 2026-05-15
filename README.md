@@ -22,6 +22,9 @@ As a result, our network achieves 35.63 dB PSNR on Urban100×2, while reducing t
 
 ## Update
 
+- 2026-05-15: Released ESC-RIB, which leverages 64x64 window with FlashAttention and RIB, achieving higher performance than ESC with 32x32 window.
+    ![ESC-RIB DFLIP benchmark](figs/escrib.png)
+
 - 2026-04-09: Released SST-XL+ trained on DFLIP dataset.
     ![SST-XL+ DFLIP benchmark](figs/sstxl.png)
 
