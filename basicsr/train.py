@@ -157,6 +157,7 @@ def train_pipeline(root_path):
         train_data = prefetcher.next()
 
         while train_data is not None:
+            train_data['phase'] = 'train'
             data_timer.record()
 
             current_iter += 1

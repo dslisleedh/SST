@@ -506,13 +506,10 @@ class WindowAttention2D(nn.Module):
        
 
 class LayerNorm(nn.Module):
-    """
-    To compatible with 2D and 3D cases.
-    """
-    def __init__(self, normalized_shape, eps=1e-6, data_format="channels_first"):
+    def __init__(self, normalized_shape, eps=1e-6, data_format="channels_first", use_affine=True):
         super().__init__()
-        self.weight = nn.Parameter(torch.ones(normalized_shape))
-        self.bias = nn.Parameter(torch.zeros(normalized_shape))
+        self.weight = nn.Parameter(torch.ones(normalized_shape)) if use_affine else None
+        self.bias = nn.Parameter(torch.zeros(normalized_shape)) if use_affine else None
         self.eps = eps
         self.data_format = data_format
         if self.data_format not in ["channels_last", "channels_first"]:
