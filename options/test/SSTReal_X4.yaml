@@ -62,7 +62,7 @@ network_g:
   sigma_data: 0.5
   sigma_min: 0
   use_skip: true
-  sampling_ig_lambda: 2.0
+  sampling_ig_lambda: 2.0  # 3.0 for better metrics. But this results in unpleasant artifacts.
 
   dim: 192
   intermediate_dim: 96
