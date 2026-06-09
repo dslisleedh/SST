@@ -20,7 +20,13 @@ As a result, our network achieves 35.63 dB PSNR on Urban100×2, while reducing t
 
 ![image](figs/rib.png)
 
+## Real-world SR Visual Results
+[<img src="figs/LQ250_166.png" height="250"/>](http://imglab.net/slider/og.php?folder=LQ250_166_SSTReal) [<img src="figs/rin.png" height="250"/>](http://imglab.net/slider/og.php?folder=RIN_SSTReal) [<img src="figs/lincoln.png" height="250"/>](http://imglab.net/slider/og.php?folder=RealSR64_Lincoln_SSTReal)  
+
 ## Update
+
+- 2026-06-09: Released SSTReal-X4 trained on DFLIP dataset.
+    [[Link]](https://huggingface.co/dslisleedh/SSTReal_X4)
 
 - 2026-05-15: Released ESC-RIB, which leverages 64x64 window with FlashAttention and RIB, achieving higher performance than ESC with 32x32 window.
     ![ESC-RIB DFLIP benchmark](figs/escrib.png)
