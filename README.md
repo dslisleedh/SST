@@ -73,3 +73,6 @@ PYTHONPATH="./:${PYTHONPATH}" GLOG_vmodule=MemcachedClient=-1 srun -p $PARTITION
 ```bash
 python -m sst.test -opt $CONFIG
 ```
+
+## Acknowledgement
+This work is based on [BasicSR](https://github.com/xpixelgroup/basicsr) and [CTMSR](https://github.com/CVL-UESTC/CTMSR). We thank them for their great work and for sharing the code.
