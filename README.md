@@ -36,9 +36,6 @@ As a result, our network achieves 35.63 dB PSNR on Urban100×2, while reducing t
 
 - 2026-04-08: Uploded the [[DFLIP dataset]](https://huggingface.co/datasets/dslisleedh/DFLIP) on huggingface.
 
-## TODO
- - [ ] Supports Real-world SR Tasks
-
 ## Installation
 
 ```bash
